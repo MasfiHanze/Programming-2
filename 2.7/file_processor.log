@@ -1,0 +1,32 @@
+2024-06-17 00:45:56,193 INFO Found new data file: valid.csv
+2024-06-17 00:45:56,558 INFO Loaded the file: valid.csv
+2024-06-17 00:45:56,611 INFO Transformed data
+2024-06-17 00:45:58,307 INFO Generated predictions
+2024-06-17 00:46:00,159 INFO Saved predictions to C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/output\valid.csv
+2024-06-17 00:46:00,461 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\valid.csv-sensor_00.png
+2024-06-17 00:46:00,824 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\valid.csv-sensor_01.png
+2024-06-17 00:46:01,108 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\valid.csv-sensor_02.png
+2024-06-17 00:46:01,110 INFO Removed original file valid.csv
+2024-06-17 00:46:01,110 INFO Resuming listening
+2024-06-17 00:50:30,101 INFO Found new data file: test.csv
+2024-06-17 00:50:30,485 INFO Loaded the file: test.csv
+2024-06-17 00:50:30,556 INFO Transformed data
+2024-06-17 00:50:32,415 INFO Generated predictions
+2024-06-17 00:50:34,286 INFO Saved predictions to C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/output\test.csv
+2024-06-17 00:50:34,613 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\test.csv-sensor_00.png
+2024-06-17 00:50:34,894 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\test.csv-sensor_01.png
+2024-06-17 00:50:35,199 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\test.csv-sensor_02.png
+2024-06-17 00:50:35,201 INFO Removed original file test.csv
+2024-06-17 00:50:35,201 INFO Resuming listening
+2024-06-17 00:52:30,220 INFO Stopping after 120 seconds
+2024-06-17 01:01:52,372 INFO Found new data file: valid.csv
+2024-06-17 01:01:52,771 INFO Loaded the file: valid.csv
+2024-06-17 01:01:52,825 INFO Transformed data
+2024-06-17 01:01:54,579 INFO Generated predictions
+2024-06-17 01:01:56,249 INFO Saved predictions to C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/output\valid.csv
+2024-06-17 01:01:56,528 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\valid.csv-sensor_00.png
+2024-06-17 01:01:56,845 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\valid.csv-sensor_01.png
+2024-06-17 01:01:57,120 INFO Saved custom image C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.7/image\valid.csv-sensor_02.png
+2024-06-17 01:01:57,122 INFO Removed original file valid.csv
+2024-06-17 01:01:57,122 INFO Resuming listening
+2024-06-17 01:03:53,254 INFO Stopping after 120 seconds
