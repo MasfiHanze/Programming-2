@@ -1,3 +1,5 @@
+The goal of this assignment is to develop a basic model that simulates the process of photosynthesis by implementing different classes and how they interact.
+
 The assignment consists of three main classes: **Atom**, **Molecule**, and **Chloroplast**.
 
 1. The Atom class represents an individual atom with properties like symbol, atomic number, and number of neutrons. It includes methods to calculate mass number and compare atoms based on mass number.
