@@ -22,6 +22,8 @@ class DataProvider:
         else:
             raise ValueError("Invalid parameter: must be 'all', an integer year, or a tuple of two integer years")
 
+# this should definitively be wrapped in a __name__=='__main__', as you import
+# this file in your server.
 # Example usage
 provider = DataProvider('C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.1/dSST.csv')
 

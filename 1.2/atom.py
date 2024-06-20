@@ -13,6 +13,9 @@ class Atom:
 
 
     def proton_number(self):
+        # I know that PEP requires you to add comments to all the methods,
+        # but in this case (and similar cases), I would prefer not to have
+        # comments at all. The code speaks for itself (as it should).
         """
         Returns the number of protons.
         """
@@ -66,12 +69,16 @@ class Atom:
         return self.mass_number() <= other.mass_number()
 
     def check_mass(self,other):
+        # A bit confusing name, as you are not checking the atom mass
+        # but the atom number.
+
         """
         Checks if the atomic numbers of two Atom objects are the same.
         """
         if self.atom_number != other.atom_number:
             raise ValueError("not the same atomic number")
 
+# This should be wrapped within a __name__=='__main__'
 #check implementation
 protium = Atom('H', 1, 1)
 deuterium = Atom('H', 1, 2)

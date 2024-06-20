@@ -1,2 +1,4 @@
 # Developing a Data Processing Pipeline: Integrating Machine Learning for Anomaly Detection
 This project is an implementation of a small pipeline with interacting components, integrating concepts from machine learning, programming, and software engineering principles. The pipeline is designed to handle anomaly detection in sensor data and real-time monitoring, with the ability to train a machine learning model, persist it, and use it for prediction on new data.
+
+Nice elaboration. It's just that you did the data-transformation on all the files and re-saved them. The project is meant to simulate that new data becomes available at a certain moment, thus requiering the transformations on this new data. I'm also not quite sure that a notebook is the tool of choice for this particular use case.

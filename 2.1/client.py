@@ -18,5 +18,6 @@ async def main():
         NetworkClient("http://localhost:8080/data/1997/2002").to_fetch()
     ]
     await asyncio.gather(*tasks)
+
 if __name__ == '__main__':
     asyncio.run(main())

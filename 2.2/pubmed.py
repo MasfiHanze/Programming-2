@@ -2,6 +2,7 @@ import multiprocessing
 from Bio import Entrez
 import time, sys, os
 
+# Good that you did not include your credentials in this repo.
 
 def get_citations(pmid, api_key):
     try:

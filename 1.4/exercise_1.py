@@ -3,6 +3,7 @@ import json
 import linecache
 import pandas as pd
 import matplotlib.pyplot as plt
+
 class CsvConverter:
     def __init__(self, header):
         self.header = header.split(',')
@@ -29,6 +30,7 @@ class CsvConverter:
         ]
         assert all(len(line.strip().split(',')) == len(self.header) for line in lines), "Number of items in line doesn't match header"
         return json.dumps(json_data)
+
 class Reader:
     def __init__(self, csv_file='dSST.csv'):
         self.csv_file = csv_file

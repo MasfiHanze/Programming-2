@@ -4,6 +4,10 @@ import time
 import json
 import linecache
 
+# Perhaps it would be better to seperate the different classes in different files
+# Apart from that, nice realisation.
+
+
 class CsvConverter:
     def __init__(self, header):
         self.header = header.split(',')
@@ -39,6 +43,8 @@ class Reader:
         self.observers = set()
     
     def add_observer(self, observer):
+        # See? This makes the code much more readable, without all
+        # the comments obscuring your view.
         self.observers.add(observer)
     
     def remove_observer(self, observer):

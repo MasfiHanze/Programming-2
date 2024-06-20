@@ -5,6 +5,8 @@ from dataprovider import DataProvider
 
 class ServerHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
+        # bit sad, the absolute path to the data-file
+
         self.dataprovider = DataProvider('C:/Users/HP Pavilion Gaming/Desktop/Programming_2/2.1/dSST.csv')
         super().__init__(*args, **kwargs)
 

@@ -40,7 +40,7 @@ oxygen = Atom('O', 8, 8)
 nitrogen = Atom('N', 7, 7)
 water = Molecule([(hydrogen, 2), (oxygen, 1)])
 co2 = Molecule( [ (carbon, 1), (oxygen, 2) ])
-#ammonia = Molecule([(nitrogen, 1), (hydrogen, 3)])
+ammonia = Molecule([(nitrogen, 1), (hydrogen, 3)])
 print(water)        # H2O
-#print(ammonia) #NH3
+print(ammonia) #NH3
 print (water + co2) # H2OCO2
